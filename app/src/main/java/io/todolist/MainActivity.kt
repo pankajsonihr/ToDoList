@@ -13,15 +13,6 @@ lateinit var binding: ActivityMainBinding
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-/*
-        // Define an array to hold the tasks
-        val tasks = mutableListOf<String>()
-
-        // Create an ArrayAdapter to display the tasks in the ListView
-        val adapter = ArrayAdapter(this, R.layout.simple_list_item_multiple_choice, tasks)
-
-        // Set the adapter for the ListView
-        binding.listViewTasks.adapter = adapter*/
 
         // Define an array to hold the tasks
         val tasks = mutableListOf<String>()
